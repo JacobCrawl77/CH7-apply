@@ -1,0 +1,57 @@
+/*
+Author: Jacob Crawley
+Date: 3/25/24
+File Name: styles07.css
+*/
+
+/* CSS Reset */
+body, header, nav, main, footer, h1, div, section, article, aside {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style rule for body */
+body {
+    background-color: #c8dbE3;
+}
+
+/* Style rule for header */
+header {
+    font-family: Verdana, Arial, sans-serif;
+    margin-top: 0.2em;
+    background-color: #183440;
+    color: #fff;
+    padding: 2%;
+}
+
+/* Style rule for main content */
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+/* Style rule for flex container */
+.flex-container {
+    display: flex;
+    flex-grow: 1;
+}
+
+/* Style rules for sections */
+section {
+    flex-basis: 30%; 
+    background-color: #fff;
+    margin-right: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style rule for aside */
+aside {
+    display: block;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px
+}
